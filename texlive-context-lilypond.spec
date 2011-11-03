@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-lilypond
+# catalog-date 2010-03-12 17:25:27 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-context-lilypond
 Version:	20100312
 Release:	1
@@ -44,6 +50,7 @@ document.
 %{_texmfdistdir}/tex/context/third/lilypond/t-lilypond.tex
 %doc %{_texmfdistdir}/doc/context/third/lilypond/demo.pdf
 %doc %{_texmfdistdir}/doc/context/third/lilypond/t-lilypond.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
