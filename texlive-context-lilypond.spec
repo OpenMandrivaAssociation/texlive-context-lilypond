@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-context-lilypond
 Version:	20100312
-Release:	8
+Release:	9
 Summary:	Lilypond code in ConTeXt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-lilypond
