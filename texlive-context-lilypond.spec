@@ -9,7 +9,7 @@ Version:	20100312
 Release:	12
 Summary:	Lilypond code in ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-lilypond
+URL:		https://www.ctan.org/tex-archive/macros/context/contrib/context-lilypond
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-lilypond.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-lilypond.doc.tar.xz
